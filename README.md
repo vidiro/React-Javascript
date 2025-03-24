@@ -1,17 +1,36 @@
-## Running React on Replit
+# Buscador de CVs
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Sistema de búsqueda de CVs utilizando React y servicios AWS Lambda.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Características
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- Subida de CVs en formato PDF
+- Búsqueda de candidatos basada en descripción de trabajo
+- Interfaz moderna y responsive
+- Integración con AWS Lambda y S3
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Tecnologías utilizadas
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- React
+- AWS Lambda
+- Amazon S3
+- OpenAI API
+- Pinecone
+- CSS Modules
 
-### Typescript
+## Instalación
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+1. Clona el repositorio:
+```bash
+git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
+```
+
+2. Instala las dependencias:
+```bash
+cd NOMBRE_DEL_REPOSITORIO
+npm install
+```
+
+3. Crea un archivo .env con las variables de entorno necesarias:
+
+REACT_APP_API_URL=tu
